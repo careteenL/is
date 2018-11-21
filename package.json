@@ -1,6 +1,6 @@
 {
   "name": "@careteen/is",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "is",
   "main": "dist/index.cjs.js",
   "module": "dist/index/esm.js",
@@ -30,7 +30,6 @@
     "url": "https://github.com/careteenL/is/issues"
   },
   "devDependencies": {
-    "@careteen/type": "^0.1.2",
     "babel-core": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
@@ -58,6 +57,7 @@
     "uglify-es": "^3.3.9"
   },
   "dependencies": {
+    "@careteen/type": "^0.1.2",
     "babel-runtime": "^6.26.0"
   },
   "pre-commit": [
