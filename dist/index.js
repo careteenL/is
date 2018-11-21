@@ -1,5 +1,5 @@
 /*!
- * @careteen/is v0.1.3
+ * @careteen/is v0.1.4
  * (c) 2018-2018 careteenL <15074806497@163.com>
  * Released under the MIT License.
  */
@@ -124,14 +124,14 @@
     var ret = true;
     for (var key in eleA) {
       if (eleA.hasOwnProperty(key)) {
-        if (!isEqual(eleA(key), eleB(key))) {
+        if (!isEqual(eleA[key], eleB[key])) {
           ret = false;
         }
       }
     }
     for (var _key in eleB) {
       if (eleB.hasOwnProperty(_key)) {
-        if (!isEqual(eleA(_key), eleB(_key))) {
+        if (!isEqual(eleA[_key], eleB[_key])) {
           ret = false;
         }
       }

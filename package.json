@@ -1,6 +1,6 @@
 {
   "name": "@careteen/is",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "is",
   "main": "dist/index.js",
   "module": "dist/index/esm.js",

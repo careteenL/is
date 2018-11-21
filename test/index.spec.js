@@ -8,4 +8,16 @@ describe('is ', () => {
     expect(Is.isUndefined(undefined)).to.equal(true)
   })
 
+  it('isEqual', () => {
+    const preData = {
+      name: 'careteen',
+      age: 22
+    }
+    const expectData = {
+      name: 'careteen',
+      age: 22
+    }  
+    expect(Is.isEqual(preData, expectData)).to.equal(true)
+  })  
+
 })

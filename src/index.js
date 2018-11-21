@@ -119,14 +119,14 @@ export function isEqualObject (eleA, eleB) {
   let ret = true
   for (const key in eleA) {
     if (eleA.hasOwnProperty(key)) {
-      if (!isEqual(eleA(key), eleB(key))) {
+      if (!isEqual(eleA[key], eleB[key])) {
         ret = false
       }
     }
   }
   for (const key in eleB) {
     if (eleB.hasOwnProperty(key)) {
-      if (!isEqual(eleA(key), eleB(key))) {
+      if (!isEqual(eleA[key], eleB[key])) {
         ret = false
       }
     }
