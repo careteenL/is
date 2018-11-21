@@ -1,5 +1,5 @@
 /*!
- * @careteen/is v0.1.2
+ * @careteen/is v0.1.3
  * (c) 2018-2018 careteenL <15074806497@163.com>
  * Released under the MIT License.
  */
